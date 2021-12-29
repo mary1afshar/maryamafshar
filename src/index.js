@@ -11,7 +11,7 @@ import About from "./components/AboutMe"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Work from "./components/Work"
-
+import Skill from "./components/Skills"
 
 ReactDOM.render(
   <React.StrictMode>  
@@ -20,18 +20,11 @@ ReactDOM.render(
       <About></About>
       <Projects></Projects>
       <Work></Work>
+      <Skill></Skill>
       <Contact></Contact>
     </Layout>
 
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-/*
-const Index = () => (
-  <Layout>
-    <Navbar></Navbar>
-  </Layout>
-)
-*/
 

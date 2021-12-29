@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/workCard.scss"
-import { GridItem, Text, Stack, Flex, Box } from "@chakra-ui/react"
+import { Text, Stack, Flex } from "@chakra-ui/react"
 
 const WorkCard = ({imagePic, companyName, companyPosition, companyDate, companyLocation, companyDesc, companyLink}) => {
     return (

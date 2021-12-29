@@ -17,6 +17,7 @@
     "react-fade": "^1.1.1",
     "react-fade-in": "^2.0.1",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.4",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
