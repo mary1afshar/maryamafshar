@@ -1,0 +1,44 @@
+.a-link {
+    text-decoration: none;
+}
+
+.WorkExperienceImage {
+    position: relative;
+    height: 15vh;
+    width: 25vh;
+    z-index: 2;
+    border-radius: 1vh;
+    display: block;
+    margin: 25px;
+  }
+
+.WorkExperienceTextContainer,
+.ProjectCardContainer {
+  background: white;
+  border: 0.5vh solid white;
+  z-index: 1;
+  padding-left: 80px;
+  
+}
+
+.WorkExperienceTitle {
+    padding-top: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.WorkExperiencePosition{
+    font-size: 21px;
+    color: black;
+}
+
+.WorkExperienceDate{
+    font-size: 18px;
+    color: black;
+}
+
+.WorkExperienceText {
+    font-size: 15px;
+    color: black;
+
+}
