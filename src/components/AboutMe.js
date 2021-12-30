@@ -22,7 +22,7 @@ const About = () => {
                         valuable experience working in front-end and software development.
                         Design and development have given me the opportunity to express myself 
                         by creating applications that help in user productivity✨ 
-                        I'm currently seeking for Winter 2023 internships! 
+                        I'm currently seeking Winter 2023 internships! 
                         <br></br>
                         <br></br>
                         In my free time you can find me reading Colleen Hoover novels, filming YouTube videos, planning a trip or swimming :)                        </p>
