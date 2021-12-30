@@ -1,12 +1,14 @@
 @import "./include-media";
+
 .work-wrapper {
-    width: 60vw;
-    margin-top: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h1 {
-      font-size: 3rem;
-      line-height: 20px;
-    }
+  width: 50vw;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
   }
+}

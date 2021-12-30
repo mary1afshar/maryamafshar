@@ -1,77 +1,70 @@
 @import "./include-media";
+
 .a-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.WorkExperienceImage {
+.WorkExperienceTextContainer,
+.ProjectCardContainer {
+  background: white;
+  border: 0.5vh solid white;
+  z-index: 1;
+  display: flex;
+  .WorkExperienceImage {
     position: relative;
-    height: 30%;
+    height: 70%;
     width: 30%;
     z-index: 2;
     border-radius: 1vh;
     display: block;
     margin: 25px;
     @include media(">=phone", "<lgphone") {
-        width: 10%;
-      }
+      width: 0%;
+      align-items: center;
+      margin: 0px;
+    }
+    @include media(">=lgphone", "<=tablet") {
+      width: 0%;
+      align-items: center;
+      margin: 0px;
+    }
   }
-
-.WorkExperienceTextContainer,
-.ProjectCardContainer {
-
-  background: white;
-  border: 0.5vh solid white;
-  z-index: 1;
-  padding-left: 80px;
-  @include media(">=phone", "<lgphone") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=lgphone", "<tablet") {
-    flex-direction: column-reverse;
-  }
-  @include media(">=tablet", "<desktop") {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  
-}
-
-.WorkExperienceTitle {
+  .WorkExperienceTitle {
     padding-top: 10px;
     font-size: 25px;
     color: black;
-}
+  }
 
-.WorkExperiencePosition{
+  .WorkExperiencePosition {
     font-size: 21px;
     color: black;
-}
+  }
 
-.WorkExperienceDate{
+  .WorkExperienceDate {
     font-size: 18px;
     color: black;
-}
+  }
 
-.WorkExperienceText {
+  .WorkExperienceText {
     font-size: 15px;
     color: black;
+  }
 
-}
-
-p {
+  p {
     @include media(">=phone", "<lgphone") {
-        font-size: 12px;
-        width: 100%;
-        text-align: center;
-      }
-      @include media(">=lgphone", "<tablet") {
-        font-size: 12px;
-        width: 100%;
-        text-align: center;
-      }
-      @include media(">=tablet", "<desktop") {
-        font-size: 14px;
-        width: 100%;
-        text-align: center;
-      }
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+    }
+  }
 }

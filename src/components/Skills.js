@@ -1,16 +1,16 @@
-import React from "react"
-import skillInfo from "../information/skillsInfo.js"
+import React from "react";
+import skillInfo from "../information/skillsInfo.js";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
-import "../css/Work.scss"
-import "../css/Skills.scss"
+import "../css/Work.scss";
+import "../css/Skills.scss";
 
 const Skills = () => {
   return (
     <div className="section" id="skills">
       <div className="container">
         <div className="skills-container">
-        <FadeIn bottom cascade>
+          <FadeIn bottom cascade>
             <h1>Skills</h1>
           </FadeIn>
           <div className="skills-grid">
@@ -24,7 +24,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

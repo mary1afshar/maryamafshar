@@ -1,12 +1,12 @@
 import NavBar from "./NavBar";
 
 const Layout = ({ children }) => {
-    return (
-        <>
-        <NavBar></NavBar>
-        <main>{children}</main>
-        </>
-    )
-}
+  return (
+    <>
+      <NavBar></NavBar>
+      <main>{children}</main>
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
