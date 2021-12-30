@@ -15,7 +15,7 @@ export default {
         },
         {
             img: code,
-            para: "Experienced in general back-end development in Python (preferred language), Next.JS, C and C++",
+            para: "Experienced in general back-end development in Python, Next.JS, C and C++",
         },
     ]
 }
