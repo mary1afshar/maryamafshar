@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { ChakraProvider } from '@chakra-ui/provider';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 
-import Navbar from "./components/NavBar";
 import Layout from "./components/Layout"
 import Header from "./components/Header"
 import About from "./components/AboutMe"

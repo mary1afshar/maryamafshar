@@ -1,6 +1,6 @@
 .about-section {
     width: 60vw;
-    height: 25vw;
+    height: 28vw;
     margin-top: 20vh;
     display: flex;
     justify-content: space-between;
@@ -40,6 +40,8 @@
         */
       }
       p {
+        margin-right: 30px;
+        font-size: 18px;
           /*
         @include media(">=tablet", "<desktop") {
           text-align: center;
@@ -49,11 +51,17 @@
     }
     .image-wrapper {
       width: 50%;
-      
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: hidden;
+      img {
+        width: 1000px;
+        height: 1000px;
+        object-fit:scale-down;
+        margin-left: 1vw;
+        padding-top: 10px;
+      }
       
     }
   }
