@@ -18,12 +18,7 @@
     border-radius: 1vh;
     display: block;
     margin: 25px;
-    @include media(">=phone", "<lgphone") {
-      width: 0%;
-      align-items: center;
-      margin: 0px;
-    }
-    @include media(">=lgphone", "<=tablet") {
+    @include media(">=phone", "<desktop") {
       width: 0%;
       align-items: center;
       margin: 0px;

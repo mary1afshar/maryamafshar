@@ -1,7 +1,7 @@
 @import "./include-media";
 
 .about-section {
-  width: 70vw;
+  width: 40vw;
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
@@ -41,9 +41,10 @@
     }
   }
   .image-wrapper {
-    width: 60%;
+    width: 90%;
     display: flex;
-    align-items: center;
+    
+    align-items: flex-start;
     justify-content: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
@@ -56,10 +57,10 @@
       width: 100%;
     }
     img {
-      width: 1000px;
-      height: 500px;
+      width: 800px;
+      height: 400px;
       object-fit: scale-down;
-      padding-left: 20px;
+      padding-left: 0px;
       padding-top: 10px;
       padding-bottom: 10px;
     }

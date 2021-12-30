@@ -1,6 +1,6 @@
 import React from "react";
 import FadeIn from "react-fade-in/lib/FadeIn";
-import maryam from "../images/MaryamAfshar_Headshot.jpg";
+import maryam from "../images/MaryamAfshar.jpg";
 
 import "../css/AboutMe.scss";
 import "../css/Main.scss";
