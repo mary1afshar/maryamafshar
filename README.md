@@ -1,7 +1,7 @@
 # Maryam Afshar Personal Website created with React
 My responsive personal website built with React.
 <br/>
-You can find it at <a href="https://mary1afshar.github.io/personal_website_react/">hiroayettey.com</a>
+You can find it at <a href="https://mary1afshar.github.io/personal_website_react/">Here!</a>
 <br/>
 <br/>
 <img src="https://github.com/mary1afshar/personal_website_react/blob/main/src/images/readmePic.PNG"/>
