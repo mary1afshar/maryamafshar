@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/projectCard.scss"
 
+import github from "../images/github.png"
+import { Image } from "@chakra-ui/react"
+
 const Card = ({heading, paragraph, imagePic, urlLink}) => {
     return (
         <div className="card"
@@ -15,12 +18,12 @@ const Card = ({heading, paragraph, imagePic, urlLink}) => {
                 <h1 className="header">{heading}</h1>
                 <p className="text">{paragraph}</p>
                 <a
-                href={urlLink ? urlLink : "#"}
+                href={urlLink }
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
                 >
-                    Github
+                    github
                 </a>
             </div>
         </div>

@@ -1,3 +1,4 @@
+@import "./include-media";
 .header-wrapper {
     width: 80vw;
     margin-top: 10vh;
@@ -9,7 +10,7 @@
       font-size: 1rem;
       text-align: center;
       font-size: 16px;
-      /*
+      
       @include media(">=phone", "<lgphone") {
         font-size: 14px;
       }
@@ -19,14 +20,14 @@
       @include media(">=tablet", "<desktop") {
         font-size: 16px;
       }
-      */
+      
     }
     .heading-wrapper {
       h1 {
         font-size: 4rem;
         text-align: center;
         line-height: 20px;
-        /*
+        
         @include media(">=phone", "<lgphone") {
           font-size: 1.5rem;
           line-height: 10px;
@@ -38,7 +39,7 @@
         @include media(">=tablet", "<desktop") {
           font-size: 2.5rem;
         }
-        */
+        
       }
     }
     p {
@@ -46,6 +47,18 @@
       text-align: center;
       overflow: hidden;
       width: 100%;
+      @include media(">=phone", "<lgphone") {
+        font-size: 12px;
+        width: 100%;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 12px;
+        width: 100%;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 14px;
+        width: 100%;
+      }
     }
     .primary-btn {
         button {

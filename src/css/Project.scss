@@ -1,6 +1,7 @@
+@import "./include-media";
 .project-container {
   width: 70vw;
-  margin-top: 20vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +14,7 @@
     grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
     grid-gap: 30px;
-    /*
+    
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
@@ -23,7 +24,7 @@
     @include media(">=tablet", "<desktop") {
       grid-template-columns: 1fr 1fr;
     }
-    */
+    
     .project {
       display: flex;
       flex-direction: column;

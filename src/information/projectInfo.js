@@ -33,7 +33,7 @@ export default {
         },
         {
             title: "Swimming Class Database",
-            para: "🏊‍♀️Swimming class registration created with C++",
+            para: "🏊‍♀️Swimming class registration created with C++, users can add, delete, modify and view all students registered in classes",
             image: swimmingclass,
             url: "https://github.com/mary1afshar/C-Swimming-Class-Database",
         },

@@ -17,7 +17,7 @@ const Work = () => {
         <div className="container">
         <div className="work-wrapper">
                 <FadeIn bottom cascade>
-                    <h1>Work Experience</h1>
+                    <h1>Work</h1>
                 </FadeIn>
             <AliceCarousel >
                 {workInfo.jobs.map((work, index) => (

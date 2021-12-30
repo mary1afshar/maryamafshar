@@ -1,6 +1,7 @@
+@import "./include-media";
 .work-wrapper {
     width: 60vw;
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,17 +9,4 @@
       font-size: 3rem;
       line-height: 20px;
     }
-    
-      /*
-      @include media(">=phone", "<lgphone") {
-        grid-template-columns: 1fr;
-      }
-      @include media(">=lgphone", "<tablet") {
-        grid-template-columns: 1fr;
-      }
-      @include media(">=tablet", "<desktop") {
-        grid-template-columns: 1fr 1fr;
-      }
-      */
-    
   }

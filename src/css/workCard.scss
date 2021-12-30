@@ -1,23 +1,38 @@
+@import "./include-media";
 .a-link {
     text-decoration: none;
 }
 
 .WorkExperienceImage {
     position: relative;
-    height: 15vh;
-    width: 25vh;
+    height: 30%;
+    width: 30%;
     z-index: 2;
     border-radius: 1vh;
     display: block;
     margin: 25px;
+    @include media(">=phone", "<lgphone") {
+        width: 10%;
+      }
   }
 
 .WorkExperienceTextContainer,
 .ProjectCardContainer {
+
   background: white;
   border: 0.5vh solid white;
   z-index: 1;
   padding-left: 80px;
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
   
 }
 
@@ -41,4 +56,22 @@
     font-size: 15px;
     color: black;
 
+}
+
+p {
+    @include media(">=phone", "<lgphone") {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+      }
 }

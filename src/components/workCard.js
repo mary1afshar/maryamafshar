@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/workCard.scss"
-import { Text, Stack, Flex } from "@chakra-ui/react"
+import { Stack, Flex } from "@chakra-ui/react"
 
 const WorkCard = ({imagePic, companyName, companyPosition, companyDate, companyLocation, companyDesc, companyLink}) => {
     return (
@@ -9,10 +9,10 @@ const WorkCard = ({imagePic, companyName, companyPosition, companyDate, companyL
                     <Flex direction="row">
                         <img className="WorkExperienceImage" src={imagePic} alt="work experience" />
                         <Stack >
-                            <Text className="WorkExperienceTitle" >{companyName}</Text>
-                            <Text className="WorkExperiencePosition">{companyPosition}</Text>
-                            <Text className="WorkExperienceDate">{companyDate}</Text>
-                            <Text className="WorkExperienceText">{companyDesc}</Text>
+                            <p className="WorkExperienceTitle" >{companyName}</p>
+                            <p className="WorkExperiencePosition">{companyPosition}</p>
+                            <p className="WorkExperienceDate">{companyDate}</p>
+                            <p className="WorkExperienceText">{companyDesc}</p>
                         </Stack>
                     </Flex>
                 </div>

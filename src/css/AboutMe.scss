@@ -1,67 +1,68 @@
+@import "./include-media";
+
 .about-section {
-    width: 60vw;
-    height: 28vw;
-    margin-top: 20vh;
-    display: flex;
-    justify-content: space-between;
-    /*
+  width: 80vw;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  @include media(">=phone", "<lgphone") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column-reverse;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    width: 50%;
     @include media(">=phone", "<lgphone") {
-      flex-direction: column-reverse;
+      width: 100%;
     }
     @include media(">=lgphone", "<tablet") {
-      flex-direction: column-reverse;
+      width: 100%;
     }
     @include media(">=tablet", "<desktop") {
-      flex-direction: column-reverse;
-      align-items: center;
+      width: 100%;
     }
-    */
-    .content {
-      width: 50%;
-      /*
-      @include media(">=phone", "<lgphone") {
-        width: 100%;
-      }
-      @include media(">=lgphone", "<tablet") {
-        width: 100%;
-      }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 20px;
       @include media(">=tablet", "<desktop") {
-        width: 100%;
-      }
-      */
-  
-      h1 {
-        font-size: 3rem;
-        line-height: 20px;
-        /*
-        @include media(">=tablet", "<desktop") {
-          text-align: center;
-        }
-        */
-      }
-      p {
-        margin-right: 30px;
-        font-size: 18px;
-          /*
-        @include media(">=tablet", "<desktop") {
-          text-align: center;
-        }
-        */
+        text-align: center;
       }
     }
-    .image-wrapper {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      img {
-        width: 1000px;
-        height: 1000px;
-        object-fit:scale-down;
-        margin-left: 1vw;
-        padding-top: 10px;
+    p {
+      @include media(">=tablet", "<desktop") {
+        text-align: center;
       }
-      
     }
   }
+  .image-wrapper {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      width: 100%;
+    }
+    img {
+      width: 1000px;
+      height: 500px;
+      object-fit:scale-down;
+      margin-left: 1vw;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+
