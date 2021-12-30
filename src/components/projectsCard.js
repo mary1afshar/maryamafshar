@@ -21,7 +21,7 @@ const Card = ({ heading, paragraph, imagePic, urlLink }) => {
           rel="noopener noreferrer"
           className="btn"
         >
-          github
+          GitHub
         </a>
       </div>
     </div>
