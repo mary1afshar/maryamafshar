@@ -6,7 +6,8 @@ import "../css/Main.scss";
 
 const Header = () => {
   return (
-    <div className="section" id="home">
+    <div className="section" id="home"
+    >
       <div className="container">
         <div className="header-wrapper">
           <FadeIn bottom>
@@ -33,10 +34,10 @@ const Header = () => {
           </FadeIn>
           <FadeIn bottom>
             <a
-              className="primary-btn"
+              className="button"
               href="https://www.linkedin.com/in/mary1afshar/"
             >
-              <button>Connect with me</button>
+              Connect with me
             </a>
           </FadeIn>
         </div>
