@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maryamafshar/static/css/main.b5a643a7.css",
-    "main.js": "/maryamafshar/static/js/main.be0850c0.js",
+    "main.css": "/maryamafshar/static/css/main.c88299ea.css",
+    "main.js": "/maryamafshar/static/js/main.6c4e42ab.js",
     "static/media/MaryamAfshar.jpg": "/maryamafshar/static/media/MaryamAfshar.a1b03ad1dddda51669c3.jpg",
     "static/media/rbc-logo.jpg": "/maryamafshar/static/media/rbc-logo.46a67c9a2f7a22ec2924.jpg",
     "static/media/forgetmenot.jpg": "/maryamafshar/static/media/forgetmenot.5b1171e80da0ea0b4b26.jpg",
@@ -14,11 +14,11 @@
     "static/media/design.png": "/maryamafshar/static/media/design.80aa3249c042ab2d17a6.png",
     "static/media/communication.png": "/maryamafshar/static/media/communication.4c15e8dd3612e685306c.png",
     "index.html": "/maryamafshar/index.html",
-    "main.b5a643a7.css.map": "/maryamafshar/static/css/main.b5a643a7.css.map",
-    "main.be0850c0.js.map": "/maryamafshar/static/js/main.be0850c0.js.map"
+    "main.c88299ea.css.map": "/maryamafshar/static/css/main.c88299ea.css.map",
+    "main.6c4e42ab.js.map": "/maryamafshar/static/js/main.6c4e42ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5a643a7.css",
-    "static/js/main.be0850c0.js"
+    "static/css/main.c88299ea.css",
+    "static/js/main.6c4e42ab.js"
   ]
 }
