@@ -28,8 +28,7 @@ const Header = () => {
 
           <FadeIn bottom>
             <p>
-              I am a second year Computer Science student at the University of
-              Waterloo
+              3rd Year Computer Science student @ the University of Waterloo
             </p>
           </FadeIn>
           <FadeIn bottom>

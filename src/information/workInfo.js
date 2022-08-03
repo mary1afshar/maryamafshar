@@ -1,14 +1,23 @@
 import rbc from "../images/rbc-logo.jpg";
 import predicta4 from "../images/predicta4.png";
+import konrad from '../images/konradlogo.png';
 
 export default {
   jobs: [
+    {
+      img: konrad,
+      company: "Konrad Group",
+      position: "Front End Software Developer",
+      date: "May - August 2021",
+      para: "Mainained portal and built a UI library with 30+ components on storybook using React.Js and GraphQL to improve reusability and consistency on the employees Portal for over 500 employees",
+      link: "https://www.konrad.com/",
+    },
     {
       img: rbc,
       company: "Royal Bank of Canada",
       position: "Full Stack Software Developer",
       date: "September - December 2021",
-      para: "Updated the banking portal to a new design using Angular & Next.JS, improving the user experience for over 1.7 million users",
+      para: "Updated the banking portal to a new design using Angular.Js & Next.JS, improving the user experience for over 1.7 million users",
       link: "https://www.rbc.com/about-rbc.html",
     },
     {

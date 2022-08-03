@@ -14,9 +14,12 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <FadeIn bottom cascade>
-            <h1>Work</h1>
+            <h1>Work Experience</h1>
           </FadeIn>
-          <AliceCarousel>
+          <AliceCarousel 
+          autoPlayInterval={3300}
+          infinite
+          autoPlay>
             {workInfo.jobs.map((work, index) => (
               <WorkCard
                 key={index}
@@ -29,6 +32,7 @@ const Work = () => {
                 companyLink={work.link}
               ></WorkCard>
             ))}
+            
           </AliceCarousel>
         </div>
       </div>

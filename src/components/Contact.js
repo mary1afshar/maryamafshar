@@ -21,8 +21,9 @@ const Contact = () => {
           >
             maryam.afshar@uwaterloo.ca
           </a>
-          <div className="social-icons">
+          <div className="icons">
             {contact.social.map((socialLink, index) => (
+              <div className="social-icons">
               <a
                 key={index}
                 href={socialLink.url}
@@ -31,6 +32,7 @@ const Contact = () => {
               >
                 <img src={socialLink.img} alt="icons"></img>
               </a>
+              </div>
             ))}
           </div>
           <span>

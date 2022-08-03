@@ -32,11 +32,12 @@
     @include media(">=tablet", "<desktop") {
       width: 100%;
     }
+    padding-right: 2rem;
 
     h1 {
       font-size: 3rem;
-      line-height: 20px;
-      @include media(">=tablet", "<desktop") {
+      line-height: 3rem;
+      @include media(">=lgphone", "<desktop") {
         text-align: center;
       }
     }
