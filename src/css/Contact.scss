@@ -11,6 +11,9 @@
     font-size: 3rem;
     line-height: 20px;
     align-items: center;
+    @include media(">=phone", "<tablet") {
+      padding-left: 2rem;
+    }
   }
   h2 {
     font-size: 1.5rem;

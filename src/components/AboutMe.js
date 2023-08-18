@@ -19,12 +19,12 @@ const About = () => {
               student at the University of Waterloo 💻
               <br></br>
               <br></br>
-              Through hackathons, previous work experience at Konrad Group, RBC and personal
+              Through hackathons, previous work experience at Apple, Linkedin, RBC and personal
               projects, I have collected valuable experience working in
               front-end and general software development. Design and development have
               given me the opportunity to express myself by creating
               applications that help in user productivity✨ I'm currently
-              seeking Winter 2023 internships!
+              seeking Summer 2024 internships!
               <br></br>
               <br></br>
               In my free time you can find me reading Colleen Hoover novels, diving,

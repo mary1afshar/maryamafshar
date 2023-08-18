@@ -4,9 +4,16 @@ import studybuddy from "../images/studybuddy.png";
 import forgetmenot from "../images/forgetmenot.jpg";
 import swimmingclass from "../images/swimmingclassdatabase.jpg";
 import wasteed from "../images/waste-ed.PNG";
+import whatoodo from "../images/whatoodo.png";
 
 export default {
   projects: [
+    {
+      title: "Whatoodo?",
+      para: " 📝 Full stack complex todo desktop application | Kotlin, JavaFX, Spring Boot.",
+      image: whatoodo,
+      url: "https://youtu.be/6tTm47t61os",
+    },
     {
       title: "Bridge+",
       para: "🌉 Web application for women+ tech professionals | MySQL, PHP, HTML/CSS & JavaScript.",

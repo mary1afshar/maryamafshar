@@ -1,6 +1,6 @@
 import design from "../images/design.png";
 import code from "../images/code.png";
-import communication from "../images/communication.png";
+import communication from "../images/communication--v2.png";
 
 export default {
   skills: [
