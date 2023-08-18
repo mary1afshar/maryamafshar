@@ -1,7 +1,7 @@
 import rbc from "../images/rbc-logo.jpg";
-import predicta4 from "../images/predicta4.png";
-import konrad from '../images/konradlogo.png';
-import apple from '../images/apple.png';
+import predicta4 from "../images/predicta4-logo.png";
+import konrad from '../images/konrad-logo.png';
+import apple from '../images/apple-logo.png';
 import linkedin from '../images/linkedin-logo.png';
 
 export default {
@@ -18,7 +18,7 @@ export default {
       img: apple,
       company: "Apple",
       position: "Full Stack Software Engineer",
-      date: "January - April 2021",
+      date: "January - April 2023",
       para: "Developed and implemented a robust, full stack web push notification application utilizing Python and Typescript, effectively automating the notification process for over 10000 engineers during build events",
       link: "https://www.apple.com/",
     },

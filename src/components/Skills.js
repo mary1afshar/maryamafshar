@@ -3,7 +3,7 @@ import skillInfo from "../information/skillsInfo.js";
 import FadeIn from "react-fade-in/lib/FadeIn";
 
 import "../css/Work.scss";
-import "../css/Skills.scss";
+import "../css/Grid.scss";
 
 const Skills = () => {
   return (

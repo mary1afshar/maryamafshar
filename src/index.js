@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
 import Skill from "./components/Skills";
+import Photos from "./components/Photos";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Projects></Projects>
       <Work></Work>
       <Skill></Skill>
+      <Photos></Photos>
       <Contact></Contact>
     </Layout>
   </React.StrictMode>,
