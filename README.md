@@ -9,3 +9,4 @@ You can find it at <a href="https://mary1afshar.github.io/maryamafshar/">Here!</
 ## How to Run
 1. Run `npm install`
 2. Run `npm start`, website will be running on `localhost:3000`
+3. Deploy `npm run deploy`
