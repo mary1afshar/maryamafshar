@@ -34,6 +34,11 @@ const NavBar = () => {
               </Link>
             </button>
             <button>
+              <Link to="photos" spy={true} smooth={true}>
+                Photos
+              </Link>
+            </button>
+            <button>
               <Link to="contact" spy={true} smooth={true}>
                 Contact
               </Link>

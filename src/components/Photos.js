@@ -5,19 +5,19 @@ import FadeIn from "react-fade-in/lib/FadeIn";
 import "../css/Work.scss";
 import "../css/Photos.scss";
 
-const Skills = () => {
+const Photos = () => {
   return (
-    <div className="section" id="pic">
+    <div className="section" id="photos">
       <div className="container">
         <div className="pic-container">
           <FadeIn bottom cascade>
             <h1>California Photo Gallery</h1>
           </FadeIn>
           <div className="pic-grid">
-            {photos.skills.map((skill, index) => (
+            {photos.pics.map((pic, index) => (
               <div className="pic" key={index}>
-                <img src={skill.img} alt="css"></img>
-                <p>{skill.para}</p>
+                <img src={pic.img} alt="css"></img>
+                <p>{pic.location}</p>
               </div>
             ))}
           </div>
@@ -27,4 +27,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Photos;

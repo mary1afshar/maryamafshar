@@ -12,54 +12,54 @@ import cali11 from "../images/galleryPhotos/Cali11.png";
 import cali12 from "../images/galleryPhotos/Cali12.png";
 
 export default {
-  skills: [
+  pics: [
     {
       img: cali1,
-      para: "Big Sur",
+      location: "Big Sur",
     },
     {
       img: cali2,
-      para: "Sanoma Ziplining",
+      location: "Sanoma Ziplining",
     },
     {
       img: cali3,
-      para: "Panther Beach",
+      location: "Panther Beach",
     },
     {
         img: cali4,
-        para: "Muir Woods",
+        location: "Muir Woods",
       },
       {
         img: cali5,
-        para: "McWay Falls",
+        location: "McWay Falls",
       },
       {
         img: cali6,
-        para: "Apple Park",
+        location: "Apple Park",
       },
       {
         img: cali7,
-        para: "Redwood National Park",
+        location: "Redwood National Park",
       },
       {
         img: cali8,
-        para: "Vernal Falls",
+        location: "Vernal Falls",
       },
       {
         img: cali9,
-        para: "Venice Beach",
+        location: "Venice Beach",
       },
       {
         img: cali10,
-        para: "Hawaii",
+        location: "Hawaii",
       },
       {
         img: cali11,
-        para: "Pinnacles National Park",
+        location: "Pinnacles National Park",
       },
       {
         img: cali12,
-        para: "Sunset Beach",
+        location: "Sunset Beach",
       },
   ],
 };
