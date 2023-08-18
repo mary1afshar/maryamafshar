@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maryamafshar/static/css/main.c88299ea.css",
-    "main.js": "/maryamafshar/static/js/main.6c4e42ab.js",
+    "main.css": "/maryamafshar/static/css/main.ad6d54e8.css",
+    "main.js": "/maryamafshar/static/js/main.2d26947b.js",
     "static/media/MaryamAfshar.jpg": "/maryamafshar/static/media/MaryamAfshar.a1b03ad1dddda51669c3.jpg",
     "static/media/rbc-logo.jpg": "/maryamafshar/static/media/rbc-logo.46a67c9a2f7a22ec2924.jpg",
     "static/media/forgetmenot.jpg": "/maryamafshar/static/media/forgetmenot.5b1171e80da0ea0b4b26.jpg",
@@ -11,14 +11,16 @@
     "static/media/bridge+.png": "/maryamafshar/static/media/bridge+.e234c6b796ebf62206af.png",
     "static/media/studybuddy.png": "/maryamafshar/static/media/studybuddy.49946ec71faf11382e6e.png",
     "static/media/waste-ed.PNG": "/maryamafshar/static/media/waste-ed.36066fc899098fb54a77.PNG",
+    "static/media/apple.png": "/maryamafshar/static/media/apple.440b0d23ae61e3b7f708.png",
+    "static/media/whatoodo.png": "/maryamafshar/static/media/whatoodo.3d6351fa05c5f2ad0200.png",
     "static/media/design.png": "/maryamafshar/static/media/design.80aa3249c042ab2d17a6.png",
-    "static/media/communication.png": "/maryamafshar/static/media/communication.4c15e8dd3612e685306c.png",
+    "static/media/linkedin-logo.png": "/maryamafshar/static/media/linkedin-logo.e9db41041d38d6fb97b4.png",
     "index.html": "/maryamafshar/index.html",
-    "main.c88299ea.css.map": "/maryamafshar/static/css/main.c88299ea.css.map",
-    "main.6c4e42ab.js.map": "/maryamafshar/static/js/main.6c4e42ab.js.map"
+    "main.ad6d54e8.css.map": "/maryamafshar/static/css/main.ad6d54e8.css.map",
+    "main.2d26947b.js.map": "/maryamafshar/static/js/main.2d26947b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c88299ea.css",
-    "static/js/main.6c4e42ab.js"
+    "static/css/main.ad6d54e8.css",
+    "static/js/main.2d26947b.js"
   ]
 }
