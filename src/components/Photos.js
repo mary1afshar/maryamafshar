@@ -11,7 +11,7 @@ const Photos = () => {
       <div className="container">
         <div className="pic-container">
           <FadeIn bottom cascade>
-            <h1>California Photo Gallery</h1>
+            <h1>Cali Photos</h1>
           </FadeIn>
           <div className="pic-grid">
             {photos.pics.map((pic, index) => (
