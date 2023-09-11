@@ -27,7 +27,7 @@ const About = () => {
               seeking Summer 2024 internships!
               <br></br>
               <br></br>
-              In my free time you can find me reading Colleen Hoover novels, diving,
+              In my free time you can find me surfing, hiking, diving,
               filming YouTube videos or swimming :){" "}
             </p>
           </div>
